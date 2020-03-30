@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="50px" viewBox="0 0 154 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>SwApp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.60765896%" y1="56.2152858%" x2="100%" y2="56.2152858%" id="linearGradient-1">
+            <stop stop-color="#048EFF" offset="0%"></stop>
+            <stop stop-color="#F2E834" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="HiraginoSans-W0, Hiragino Sans" font-size="50" font-weight="200" letter-spacing="0.28">
+        <text id="SwApp" fill="url(#linearGradient-1)">
+            <tspan x="-3" y="38">SwApp</tspan>
+        </text>
+    </g>
+</svg>
