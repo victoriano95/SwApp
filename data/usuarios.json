@@ -1,0 +1,21 @@
+CADA USUARIO TIENE UN ID UNICO
+{
+   "id":3,
+   "nombre":"toni",
+   "apellidos":"bibiloni",
+   "nick":"tb",
+   "contacto":{
+      "mail":"tb@uib.es",
+      "tel":"666555444"
+   },
+   "avatar":"http://uib.es/foto.jpg",
+   LA GEO ES OPCIONAL
+   "geo":{
+      "address":"Carrer de Francesc Vidal I Sureda, 23",
+      "lat":39.5727196,
+      "long":2.6257796,
+      "city":"Palma de Mallorca",
+      "country":"España",
+      "zip":"07015"
+   }
+}
