@@ -11,11 +11,33 @@ console.log('correcto');
 //function cargarFichero(){
 let requestURL = 'data/moda.json';
 console.log('estoy dentro');
-const xhttp = new XMLHttpRequest();
-xhttp.open('GET', 'data/moda.json');
-//xhttp.responseType = 'json';
-xhttp.send();
-console.log(this.responseText);
+
+(function(){
+   var moda = MODA;
+   console.log(moda);
+})();
+
+/*
+var xmlhttp = new XMLHttpRequest();
+
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myArr = JSON.parse(this.responseText);
+        console.log(myArr);
+    }
+};
+xmlhttp.open("GET", requestURL, true);
+xmlhttp.send();*/
+
+function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i++) {
+        out += '<a href="' + arr[i].url + '">' +
+        arr[i].display + '</a><br>';
+    }
+    document.getElementById("id01").innerHTML = out;
+}
 
 
 
