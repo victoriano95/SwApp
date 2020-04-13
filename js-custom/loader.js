@@ -1,7 +1,6 @@
 console.log('correcto');
 
 let requestURL = 'data/moda.json';
-console.log('estoy dentro');
 
 /*
 var xmlhttp = new XMLHttpRequest();
@@ -15,13 +14,17 @@ xmlhttp.open("GET", requestURL, true);
 xmlhttp.send();
 */
 function pintarProducto(value){
+    console.log('estoy dentro de pintarproducto');
     let res = $('#lista_productos');
     res.html("");
     res.append("TEST");
+    //res.innerHTML("hola");
 }
 
 var moda = MODA;
 console.log(moda);
 for(item in moda.moda){
+    console.log(item["name"])
+
     pintarProducto(item);
 }
