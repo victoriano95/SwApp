@@ -11,7 +11,7 @@ $(document).ready(function(){
         request.onload =  function (request, nomCategoria) {
             var ficheroJSON = request.response;
             console.log("Se ha cargado "+nomCategoria);
-            pintaProducto(ficheroJSON, nomCategoria);
+            pintarProducto(ficheroJSON, nomCategoria);
         };
     }
 });
