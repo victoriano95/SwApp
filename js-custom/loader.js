@@ -7,11 +7,13 @@ $(document).ready(function(){
         request.open('GET', requestURL);
         request.responseType = 'json';
         request.send();
-        var nomCategoria = categories[i]
-        request.onload =  function (request, nomCategoria) {
+        request.onload =  function (request) {
+            var div = document.getElementById("lista_productos");
+            div.innerHTML = "";
             var ficheroJSON = request.response;
-            console.log("Se ha cargado "+nomCategoria);
-            pintarProducto(ficheroJSON, nomCategoria);
+            for(item in ficheroJSON.moda){
+                pintarProducto(ficheroJSON.moda[item]);
+            }
         };
     }
 });
