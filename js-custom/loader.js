@@ -10,9 +10,9 @@ $(document).ready(function(){
         request.onload =  function (request) {
             var div = document.getElementById("lista_productos");
             div.innerHTML = "";
-            var ficheroJSON = request.response;
-            for(item in ficheroJSON.moda){
-                pintarProducto(ficheroJSON.moda[item]);
+            var moda = JSON.parse(request.response);
+            for(item in moda.moda){
+                pintarProducto(moda.moda[item]);
             }
         };
     }
