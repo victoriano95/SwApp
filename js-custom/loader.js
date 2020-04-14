@@ -1,30 +1,17 @@
-console.log('correcto');
-
-let requestURL = 'data/moda.json';
-
-/*
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        var myArr = JSON.parse(this.responseText);
-        console.log(myArr);
+$(document).ready(function(){
+    var URLs = ["data/moda.json", "data/moda.json", "data/moda.json"]
+    var categories = ["moda", "moda", "moda"]
+    for(var i = 0; i<URLs.length ; i++){
+        var requestURL = URLs[i];
+        var request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
+        var nomCategoria = categories[i]
+        request.onload =  function (request, nomCategoria) {
+            var ficheroJSON = request.response;
+            console.log("Se ha cargado "+nomCategoria);
+            pintaProducto(ficheroJSON, nomCategoria);
+        };
     }
-};
-xmlhttp.open("GET", requestURL, true);
-xmlhttp.send();
-*/
-function pintarProducto(value){
-    console.log('estoy dentro de pintarproducto');
-    let res = $('#lista_productos');
-    res.html("");
-    res.append("TEST");
-    //res.innerHTML("hola");
-}
-
-var moda = MODA;
-console.log(moda);
-for(item in moda.moda){
-    console.log(item["name"])
-
-    pintarProducto(item);
-}
+});

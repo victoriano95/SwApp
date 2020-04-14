@@ -1,0 +1,171 @@
+/* ESTO DEBE BORRARSE */
+var MODA = 
+/* ^^^^^^^^^^^^^^^^^^ */
+{
+   "moda":[
+      {
+         "name":"Camiseta Jack & Jones",
+         "description":"bla bla bla",
+         "detalle":"detalle de la descripción",
+         "tipo":"camiseta",
+         "identificador":1,
+         "cantidad":1,
+         "icones":[
+            "http://alumnes-ltim.uib.es/tm/icon1.svg",
+            "http://alumnes-ltim.uib.es/tm/icon2.gif"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/img/product/p5.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/img/product/p3.jpg"
+         ],
+         "videos":[
+            {
+               "tipus":"youtube",
+               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
+            },
+            {
+               "tipus":"mp4",
+               "url":"video.mp4"
+            }
+         ],
+         "audios":[
+            {
+               "tipus":"youtube",
+               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
+            },
+            {
+               "tipus":"mp3",
+               "url":"video.mp3"
+            }
+         ],
+         "puntuacion":5,
+         "visualizaciones":23,
+         "likes":3,
+         "startDate":"2020-03-20",
+         "startTime":"12:00",
+         "endDate":"2020-03-22",
+         "endTime":"24:00",
+         "precio-nuevo":50,
+         "precio-venta":40,
+         "precio-subasta":35,
+         "incremento-subasta":5,
+         "indicador-precio":3,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":true,
+         "intercambio":true,
+         "cambiado":false,
+         "comment-intercambio":"Texto explicando la propuesta de intercambio",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "camiseta",
+            "marcas",
+            "estampado",
+            "joven",
+            "amarillo"
+         ],
+         "data-propios":[
+            {
+               "marca":"Jack & Jones",
+               "estat":"com nou",
+               "anydecompra":"2019",
+               "talla":"M",
+               "material":"cotó",
+               "color":"groc",
+               "sexe":"unisex"
+            }
+         ]
+      },
+      {
+         "name":"Nike MD Runner 2",
+         "description":"Zapatillas de Running",
+         "detalle":"detalle de la descripción",
+         "tipo":"zapato",
+         "identificador":2,
+         "cantidad":1,
+         "icones":[
+            "http://alumnes-ltim.uib.es/tm/icon1.svg",
+            "http://alumnes-ltim.uib.es/tm/icon2.gif"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/img/product/p4.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/img/product/p2.jpg"
+         ],
+         "videos":[
+            {
+               "tipus":"youtube",
+               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
+            },
+            {
+               "tipus":"mp4",
+               "url":"video.mp4"
+            }
+         ],
+         "audios":[
+            {
+               "tipus":"youtube",
+               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
+            },
+            {
+               "tipus":"mp3",
+               "url":"video.mp3"
+            }
+         ],
+         "puntuacion":8,
+         "visualizaciones":2109,
+         "likes":1673,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":81.92,
+         "precio-venta":45.99,
+         "precio-subasta":25,
+         "incremento-subasta":5,
+         "indicador-precio":3,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":true,
+         "intercambio":true,
+         "cambiado":false,
+         "comment-intercambio":"Texto explicando la propuesta de intercambio",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "zapatillas",
+            "marcas",
+            "estampado",
+            "joven",
+            "negro"
+         ],
+         "data-propios":[
+            {
+               "marca":"Nike",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"42",
+               "material":"cuero",
+               "color":"negro",
+               "sexe":"unisex"
+            }
+         ]
+      }
+   ]
+}
