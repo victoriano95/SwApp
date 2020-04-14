@@ -8,12 +8,14 @@ $(document).ready(function(){
         request.responseType = 'json';
         request.send();
         request.onload =  function (request) {
-            var div = document.getElementById("lista_productos");
-            div.innerHTML = "";
-            var moda = JSON.parse(request.response);
-            for(item in moda.moda){
-                pintarProducto(moda.moda[item]);
+            return function(){
+                var div = document.getElementById("lista_productos");
+                div.innerHTML = "";
+                var jsonfile = request.response;
+                for(item in jsonfile.moda){
+                    pintarProducto(jsonfile.moda[item]);
+                }
             }
-        };
+        }(request)
     }
 });
