@@ -20,9 +20,8 @@ function pintarProducto(item){
                                 +'</div>'
                             +'</div>'
                         +'</div>'
-                    +'</div>'
-    var div = document.getElementById("lista_productos");
-    div.innerHTML += producte;
+                    +'</div>';
+    document.getElementById("lista_productos").innerHTML += producte;
 }
 
 function get_productos_con_tag_propio(tag, json_object){
