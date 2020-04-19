@@ -163,6 +163,73 @@
                "sexe":"unisex"
             }
          ]
+      },
+      {
+         "name":"Camiseta Groot Motivo De Logo Rojo",
+         "description":" • Manga corta • Cuello redondo • Motivo de logo delante",
+         "detalle":"COMPOSICIÓN: • 100% algodón CUIDADOS: • Lavar a máquina máx. 30ºC",
+         "tipo":"camiseta",
+         "identificador":2,
+         "cantidad":1,
+         "icones":[
+
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/pepe1.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/pepe2.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/pepe3.jpg"
+         ],
+         "videos":[
+            
+
+         ],
+         "audios":[
+         ],
+         "puntuacion":8,
+         "visualizaciones":2109,
+         "likes":1673,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":35,
+         "precio-venta":15.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "estampado",
+            "joven",
+            "negro"
+         ],
+         "data-propios":[
+            {
+               "marca":"Pepe Jeans",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":"Algodón",
+               "color":"Rojo y azul oscuro",
+               "sexe":"hombre"
+            }
+         ]
       }
    ]
 }
