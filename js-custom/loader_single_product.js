@@ -40,6 +40,9 @@ request.onreadystatechange = function() {
         var div_descripcion = document.getElementById("single_product_descripcion");
         div_descripcion.innerHTML = get_single_product_descripcion(producto);
 
+        var div_descripcion_detalle = document.getElementById("home");
+        div_descripcion_detalle.innerHTML = get_single_product_descripcion_detalle(producto);
+
     }
 }
 request.open('GET', URL, false);
