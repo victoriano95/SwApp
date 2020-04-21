@@ -68,8 +68,6 @@ function get_single_product_descripcion_detalle(json_object){
 	var description = json_object["description"];
 	var detalle = json_object["detalle"];
 	var div_text = "<p>	"+description + "</p><br>" + "<p>	"+detalle + "</p>";
-	console.log(description + detalle);
-	console.log("hola");
 
 	return div_text;
 }
