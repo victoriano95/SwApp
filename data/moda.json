@@ -36,7 +36,29 @@
             }
          ],
          "puntuacion":5,
-         "visualizaciones":23,
+         "valoracions":[
+            {
+               "puntuació":5,
+               "nom": "Juan",
+               "text": "sdvdsvcs"
+            },
+            {
+               "puntuació":5,
+               "nom": "Pepe",
+               "text": "sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom": "Juan",
+               "text": "sdvdsvcs"
+            },
+            {
+               "nom": "Pepe",
+               "text": "sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
          "likes":3,
          "startDate":"2020-03-20",
          "startTime":"12:00",
@@ -119,6 +141,28 @@
             }
          ],
          "puntuacion":8,
+         "valoracions":[
+            {
+               "puntuació":5,
+               "nom": "Juan",
+               "text": "sdvdsvcs"
+            },
+            {
+               "puntuació":5,
+               "nom": "Pepe",
+               "text": "sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom": "Juan",
+               "text": "sdvdsvcs"
+            },
+            {
+               "nom": "Pepe",
+               "text": "sdvdsvcs"
+            }
+         ],
          "visualizaciones":2109,
          "likes":1673,
          "startDate":"2020-03-23",
@@ -187,6 +231,28 @@
          "audios":[
          ],
          "puntuacion":8,
+         "valoracions":[
+            {
+               "puntuació":5,
+               "nom": "Juan",
+               "text": "sdvdsvcs"
+            },
+            {
+               "puntuació":5,
+               "nom": "Pepe",
+               "text": "sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom": "Juan",
+               "text": "sdvdsvcs"
+            },
+            {
+               "nom": "Pepe",
+               "text": "sdvdsvcs"
+            }
+         ],
          "visualizaciones":2109,
          "likes":1673,
          "startDate":"2020-03-23",
