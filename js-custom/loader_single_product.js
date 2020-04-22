@@ -42,7 +42,15 @@ request.onreadystatechange = function() {
 
         var div_descripcion_detalle = document.getElementById("home");
         div_descripcion_detalle.innerHTML = get_single_product_descripcion_detalle(producto);
+       
+        var div_especificaciones = document.getElementById("profile");
+        div_especificaciones.innerHTML = get_single_product_especificaciones(producto);
 
+        var div_review_list = document.getElementById("review_list");
+        div_review_list.innerHTML = get_single_product_review_list(producto);
+
+        var div_review_total_rate = document.getElementById("total_rate");
+        div_review_total_rate.innerHTML = get_single_product_review_total_rate(producto);
     }
 }
 request.open('GET', URL, false);

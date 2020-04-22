@@ -38,12 +38,12 @@
          "puntuacion":5,
          "valoracions":[
             {
-               "puntuació":5,
+               "puntuacio":5,
                "nom": "Juan",
                "text": "sdvdsvcs"
             },
             {
-               "puntuació":5,
+               "puntuacio":5,
                "nom": "Pepe",
                "text": "sdvdsvcs"
             }
@@ -143,12 +143,12 @@
          "puntuacion":8,
          "valoracions":[
             {
-               "puntuació":5,
+               "puntuacio":5,
                "nom": "Juan",
                "text": "sdvdsvcs"
             },
             {
-               "puntuació":5,
+               "puntuacio":5,
                "nom": "Pepe",
                "text": "sdvdsvcs"
             }
@@ -233,12 +233,12 @@
          "puntuacion":8,
          "valoracions":[
             {
-               "puntuació":5,
+               "puntuacio":5,
                "nom": "Juan",
                "text": "sdvdsvcs"
             },
             {
-               "puntuació":5,
+               "puntuacio":5,
                "nom": "Pepe",
                "text": "sdvdsvcs"
             }

@@ -71,3 +71,51 @@ function get_single_product_descripcion_detalle(json_object){
 
 	return div_text;
 }
+
+function get_single_product_especificaciones(json_object){
+	var datapropios = json_object["data-propios"];
+	var div_text = 	'<div class="table-responsive"> <table class="table"> <tbody>'+
+			'<tr> <td><h5>Marca</h5></td><td><h5>' + datapropios[0].marca + '</h5></td></tr>'+
+			'<tr> <td><h5>Estado</h5></td><td><h5>' + datapropios[0].estat + '</h5></td></tr>'+
+			'<tr> <td><h5>Año de compra</h5></td><td><h5>' + datapropios[0].anydecompra + '</h5></td></tr>'+
+			'<tr> <td><h5>Talla</h5></td><td><h5>' + datapropios[0].talla + '</h5></td></tr>'+
+			'<tr> <td><h5>Material</h5></td><td><h5>' + datapropios[0].material + '</h5></td></tr>'+
+			'<tr> <td><h5>Color</h5></td><td><h5>' + datapropios[0].color + '</h5></td></tr>'+
+			'<tr> <td><h5>Sexo</h5></td><td><h5>' + datapropios[0].sexe + '</h5></td></tr>'+
+
+			 '</tbody> </table> </div>'
+
+	return div_text;
+}
+
+function get_single_product_review_list(json_object){
+	var reseñas = json_object["valoracions"];
+	var div_text = 	"";
+	for(res in reseñas){
+		div_text += '<div class="review_item"> <div class="media"> <div class="d-flex">' +
+		'<img src="img/product/review-1.png" alt=""> </div> <div class="media-body"><h4>'+
+		reseñas[res].puntuacio+'</h4>'+
+				'<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>'+ 
+				'</div></div><p>'+
+		reseñas[res].text +
+			'</p></div>';
+	}
+	return div_text;
+}
+
+function get_single_product_review_total_rate(json_object){
+	var reseñas = json_object["valoracions"];
+	var div_text = 	"";
+	var media=0;
+	for(res in reseñas){
+		media +=reseñas[res].puntuacio;
+	}
+	media = media / reseñas.length();
+	div_text = "";
+
+	return div_text;
+}
+
+
+
+
