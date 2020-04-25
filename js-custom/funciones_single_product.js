@@ -111,7 +111,7 @@ function get_single_product_review_total_rate(json_object){
 		media +=reseñas[res].puntuacio;
 	}
 	media = media / reseñas.length();
-	div_text = "";
+	div_text = "Nota media: "+media;
 
 	return div_text;
 }
