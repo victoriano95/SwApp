@@ -102,7 +102,7 @@ function get_single_product_review_list(json_object){
 	}
 	return div_text;
 }
-
+//no hay manera de que funcione
 function get_single_product_review_total_rate(json_object){
 	var reseñas = json_object["valoracions"];
 	var div_text = 	"";
@@ -111,7 +111,20 @@ function get_single_product_review_total_rate(json_object){
 		media +=reseñas[res].puntuacio;
 	}
 	media = media / reseñas.length();
-	div_text = "Nota media: "+media;
+	media = 4;
+	//div_text = "Nota media: "+media;
+
+
+	div_text = '<div class="row total_rate" id="total_rate"> <div class="col-6"> <div class="box_total">' + 
+			'<h5>Total</h5> <h4>' + media + '</h4> <h6>(' + media + ' Opiniones)</h6></div></div>'+
+	'<div class="col-6"> <div class="rating_list"><h3>basado en ' + '3 Opiniones</h3>' +
+			'<ul class="list">' +
+			    '<li><a href="#">5 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
+				'<li><a href="#">4 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
+				'<li><a href="#">3 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
+				'<li><a href="#">2 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
+				'<li><a href="#">1 Estrella <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
+			'</ul></div></div></div>';
 
 	return div_text;
 }
@@ -119,3 +132,17 @@ function get_single_product_review_total_rate(json_object){
 
 
 
+function get_single_product_comment_list(json_object){
+	var comentarios = json_object["comentaris"];
+	var div_text = 	"";
+	for(com in comentarios){
+		div_text += '<div class="review_item"> <div class="media"> <div class="d-flex">' +
+		'<img src="img/product/review-1.png" alt=""> </div> <div class="media-body"><h4>'+
+		comentarios[com].nom+'</h4>'+
+				'<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>'+ 
+				'</div></div><p>'+
+		comentarios[com].text +
+			'</p></div>';
+	}
+	return div_text;
+}

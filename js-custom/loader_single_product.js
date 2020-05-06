@@ -51,6 +51,10 @@ request.onreadystatechange = function() {
 
         var div_review_total_rate = document.getElementById("total_rate");
         div_review_total_rate.innerHTML = get_single_product_review_total_rate(producto);
+        
+        var div_comment_list = document.getElementById("comment_list");
+        div_comment_list.innerHTML = get_single_product_comment_list(producto);
+        
     }
 }
 request.open('GET', URL, false);
