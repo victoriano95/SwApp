@@ -42,6 +42,6 @@ function publicar_moda(){
 	        // but on this place you have to have a server for write updated JSON to the file
 	    }
     }
-	request.open('GET', requestURL, false);
+	request.open('GET', URL, false);
 	request.send();
 }
