@@ -14,8 +14,10 @@ function publicar_moda(){
 	var URL = "data/moda.json";
 	var categoria = "moda";
 	var request = new XMLHttpRequest();
+	        alert("1");
 	request.onreadystatechange = function() {
 	    if (this.readyState == 4 && this.status == 200) {
+	        alert("2");
 	        var json_moda = JSON.parse(this.responseText);
 	        json_moda.push({"name": nombre,
 	    					"descripcion" : descripcion,
@@ -27,7 +29,7 @@ function publicar_moda(){
 	    						}
 	    					]}
 	    					);
-	        alert("ARA");
+	        alert("3");
 	        console.log("Se procede a lanzar POST -> ");
 	        console.log(json_moda);
 	        // we send with new request the updated JSON file to the server:
