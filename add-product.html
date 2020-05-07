@@ -17,9 +17,7 @@
     <!-- Site Title -->
     <title>SwApp</title>
 
-    <!--
-            CSS
-            ============================================= -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/linearicons.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -28,9 +26,12 @@
     <link rel="stylesheet" href="css/nouislider.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="js-custom/publicar_producto.js"></script>
+
 </head>
 
-<body>
+<body onload="inicializar()">
 
     <!-- Start Header Area -->
 	<header class="header_area sticky-header">
@@ -50,31 +51,8 @@
 						<ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                             <li class="nav-item"><a class="nav-link" href="products.html">Productos</a></li>
-
-                                <!--<li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                 aria-expanded="false">Tienda</a>
-                                <ul class="dropdown-menu">
-                            
-                                  <li class="nav-item"><a class="nav-link" href="category.html">Categorías</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
-                                </ul>
-                            </li>-->
 							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-
-							<!--<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>-->
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-
                             <li class="nav-item submenu dropdown">
                                 <a href="profile.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                  aria-expanded="false">Mi cuenta</a>
@@ -131,29 +109,29 @@
                 <form class="row tracking_form" action="#" method="post" novalidate="novalidate">
                      <!--================Product name =================-->
                     <div class="col-md-12 form-group">
-                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre del producto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre del producto'">
+                        <input type="text" class="form-control" id="publicar_nombre" name="nombre" placeholder="Nombre del producto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre del producto'">
                     </div>
                     <!--================Marca=================-->
                     <div class="col-md-12 form-group">
-                        <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Marca'">
+                        <input type="text" class="form-control" id="publicar_marca" name="marca" placeholder="Marca" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Marca'">
                     </div>   
                     <!--================Tipo =================-->
                     <div class="col-md-12 form-group">
-                        <input type="text" class="form-control" id="Tipo" name="Tipo" placeholder="Tipo" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tipo'">
+                        <input type="text" class="form-control" id="publicar_tipo" name="Tipo" placeholder="Tipo" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tipo'">
                     </div>   
                     <!--================Precio =================-->           
                     <div class="col-md-12 form-group">
-                        <input type="number" class="form-control" id="precio" name="precio" placeholder="Precio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Precio'">
+                        <input type="number" class="form-control" id="publicar_precio" name="precio" placeholder="Precio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Precio'">
                     </div>
                     <!--================descripción =================-->
                     <div class="col-md-12 form-group">
-                        <input type="text" class="form-control" id="descripción" name="descripción" placeholder="Descripción del producto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Descripción del producto'">
+                        <input type="text" class="form-control" id="publicar_descripción" name="descripción" placeholder="Descripción del producto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Descripción del producto'">
                     </div>
                     <div class="col-md-12 form-group">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Dirección de email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de email'">
+                        <input type="email" class="form-control" id="publicar_email" name="email" placeholder="Dirección de email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección de email'">
                     </div>
                     <div class="col-md-12 form-group">
-                        <button type="submit" value="submit" class="primary-btn">Publicar</button>
+                        <button onclick='publicar_moda()' type="submit" value="submit" class="primary-btn">Publicar</button>
                     </div>
                 </form>
             </div>
