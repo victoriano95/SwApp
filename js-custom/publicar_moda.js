@@ -22,13 +22,13 @@ function publicar_moda(){
 	        var json = JSON.parse(this.responseText);
 	        var json_moda = json[categoria];
 	        var identificador = json_moda.length;
-	        json_moda.push({"name": nombre,
-	    					"descripcion" : descripcion,
-	    					"tipo" : tipo,
+	        json_moda.push({"name": nombre.value,
+	    					"descripcion" : descripcion.value,
+	    					"tipo" : tipo.value,
 	    					"identificador" : identificador,
 	    					"data-propios" : [
 	    						{
-	    							"marca": marca
+	    							"marca": marca.value
 	    						}
 	    					]}
 	    					);
@@ -36,11 +36,11 @@ function publicar_moda(){
 	        console.log("Se procede a lanzar POST -> ");
 	        console.log(json_moda);
 	        // we send with new request the updated JSON file to the server:
-	        xhr.open("POST", URL, true);
-	        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	        request.open("POST", URL, true);
+	        request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 	        // if you want to handle the POST response write (in this case you do not need it):
 	        // xhr.onreadystatechange = function(){ /* handle POST response */ };
-	        xhr.send("jsonTxt="+JSON.stringify(json_moda));
+	        request.send("jsonTxt="+JSON.stringify(json_moda));
 	        // but on this place you have to have a server for write updated JSON to the file
 	    }
     }
