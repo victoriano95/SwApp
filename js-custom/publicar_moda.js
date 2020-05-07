@@ -10,15 +10,15 @@ function inicializar(){
 }
 
 function publicar_moda(){
-	        alert("0");
+	        	alert("0");
 	inicializar();
 	var URL = "data/moda.json";
 	var categoria = "moda";
 	var request = new XMLHttpRequest();
-	        alert("1");
+	        	alert("1");
 	request.onreadystatechange = function() {
 	    if (this.readyState == 4 && this.status == 200) {
-	        alert("2");
+	        	alert("2");
 	        var my_json = JSON.parse(this.responseText);
 	        var identificador = my_json[categoria].length;
 	        my_json[categoria].push({"name": nombre.value,
@@ -32,15 +32,39 @@ function publicar_moda(){
 	    					]}
 	    					);
 	        alert("3");
-	        console.log("Se procede a lanzar POST -> ");
-	        console.log(my_json);
-	        // we send with new request the updated JSON file to the server:
+		        console.log("Se procede a lanzar POST -> ");
+		        console.log(my_json);
 	        request.open("POST", URL, true);
 	        request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
-	        // if you want to handle the POST response write (in this case you do not need it):
-	        // xhr.onreadystatechange = function(){ /* handle POST response */ };
-	        request.send(JSON.stringify(my_json));
-	        // but on this place you have to have a server for write updated JSON to the file
+	        request.send(my_json);
+
+
+
+			/*$.ajax({
+			type: "POST",
+			url: URL,
+			data: my_json,
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+			success: function(msg) {
+				alert("ok!");
+			 }
+			});*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	    }
     }
 	request.open('GET', URL, false);
