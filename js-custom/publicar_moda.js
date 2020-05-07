@@ -40,9 +40,10 @@ function publicar_moda(){
 
 
 
+			var URL2 = "data/moda2.json";
 			$.ajax({
 			type: "POST",
-			url: URL,
+			url: URL2,
 			data: my_json,
 			contentType: "application/json; charset=utf-8",
 			dataType: "json",
