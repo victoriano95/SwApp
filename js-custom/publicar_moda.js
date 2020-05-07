@@ -10,6 +10,7 @@ function inicializar(){
 }
 
 function publicar_moda(){
+	inicializar();
 	var URL = "data/moda.json";
 	var categoria = "moda";
 	var request = new XMLHttpRequest();
