@@ -27,14 +27,15 @@ function publicar_moda(){
 	    						}
 	    					]}
 	    					);
-        // we send with new request the updated JSON file to the server:
-        xhr.open("POST", URL, true);
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        // if you want to handle the POST response write (in this case you do not need it):
-        // xhr.onreadystatechange = function(){ /* handle POST response */ };
-        xhr.send("jsonTxt="+JSON.stringify(json_moda));
-        // but on this place you have to have a server for write updated JSON to the file
-	}
+	        // we send with new request the updated JSON file to the server:
+	        xhr.open("POST", URL, true);
+	        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	        // if you want to handle the POST response write (in this case you do not need it):
+	        // xhr.onreadystatechange = function(){ /* handle POST response */ };
+	        xhr.send("jsonTxt="+JSON.stringify(json_moda));
+	        // but on this place you have to have a server for write updated JSON to the file
+	    }
+    }
 	request.open('GET', requestURL, false);
 	request.send();
 }
