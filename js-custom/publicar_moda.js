@@ -10,7 +10,7 @@ function inicializar(){
 }
 
 function publicar_moda(){
-	        	alert("0");
+	        	alert("0");$.support.cors = true;
 	inicializar();
 	var URL = "data/moda.json";
 	var categoria = "moda";
