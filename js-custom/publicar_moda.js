@@ -27,6 +27,8 @@ function publicar_moda(){
 	    						}
 	    					]}
 	    					);
+	        console.log("Se procede a lanzar POST -> ");
+	        console.log(json_moda);
 	        // we send with new request the updated JSON file to the server:
 	        xhr.open("POST", URL, true);
 	        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
