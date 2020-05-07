@@ -37,7 +37,7 @@ function publicar_moda(){
 	        console.log(json_moda);
 	        // we send with new request the updated JSON file to the server:
 	        request.open("POST", URL, true);
-	        request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	        request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 	        // if you want to handle the POST response write (in this case you do not need it):
 	        // xhr.onreadystatechange = function(){ /* handle POST response */ };
 	        request.send(JSON.stringify(json_moda));
