@@ -19,7 +19,9 @@ function publicar_moda(){
 	request.onreadystatechange = function() {
 	    if (this.readyState == 4 && this.status == 200) {
 	        alert("2");
-	        var json_moda = JSON.parse(this.responseText);
+	        var json = JSON.parse(this.responseText);
+	        var json_moda = json[categoria];
+	        var identificador = json_moda.length;
 	        json_moda.push({"name": nombre,
 	    					"descripcion" : descripcion,
 	    					"tipo" : tipo,
