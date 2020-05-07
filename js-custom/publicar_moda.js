@@ -34,13 +34,13 @@ function publicar_moda(){
 	        alert("3");
 		        console.log("Se procede a lanzar POST -> ");
 		        console.log(my_json);
-	        request.open("POST", URL, true);
-	        request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
-	        request.send(my_json);
+	        //request.open("POST", URL, true);
+	        //request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+	        //request.send(my_json);
 
 
 
-			/*$.ajax({
+			$.ajax({
 			type: "POST",
 			url: URL,
 			data: my_json,
@@ -49,7 +49,7 @@ function publicar_moda(){
 			success: function(msg) {
 				alert("ok!");
 			 }
-			});*/
+			});
 
 
 
