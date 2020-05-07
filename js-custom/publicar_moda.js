@@ -27,6 +27,7 @@ function publicar_moda(){
 	    						}
 	    					]}
 	    					);
+	        alert("ARA");
 	        console.log("Se procede a lanzar POST -> ");
 	        console.log(json_moda);
 	        // we send with new request the updated JSON file to the server:
