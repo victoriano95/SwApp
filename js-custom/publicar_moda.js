@@ -13,7 +13,7 @@ function publicar_moda(){
 	inicializar();
 	var request = new XMLHttpRequest();
 	var categoria = "moda";
-    var my_json = {"moda": []};
+    var my_json = JSON.parse('{ "'+categoria+'":[] }');
     my_json[categoria].push({"name": nombre.value,
 		"descripcion" : descripcion.value,
 		"tipo" : tipo.value,
