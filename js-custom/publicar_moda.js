@@ -25,6 +25,6 @@ function publicar_moda(){
 		);
     console.log(my_json);
     request.open("POST", "data/publicar_moda.php", true);
-    request.setRequestHeader("Content-Type", "application/json; charset=utf-8");
-    request.send(JSON.stringify(my_json));
+    request.setRequestHeader("Content-Type", "application/json;");
+    request.send(my_json);
 }
