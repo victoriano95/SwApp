@@ -1,220 +1,11 @@
 {
    "moda":[
       {
-         "name":"Camiseta Jack & Jones",
-         "description":"bla bla bla",
-         "detalle":"detalle de la descripción",
-         "tipo":"camiseta",
-         "identificador":1,
-         "cantidad":1,
-         "icones":[
-            "http://alumnes-ltim.uib.es/tm/icon1.svg",
-            "http://alumnes-ltim.uib.es/tm/icon2.gif"
-         ],
-         "images":[
-            "https://alumnes-ltim.uib.es/~tm2013/img/product/p5.jpg",
-            "https://alumnes-ltim.uib.es/~tm2013/img/product/p3.jpg"
-         ],
-         "videos":[
-            {
-               "tipus":"youtube",
-               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
-            },
-            {
-               "tipus":"mp4",
-               "url":"video.mp4"
-            }
-         ],
-         "audios":[
-            {
-               "tipus":"youtube",
-               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
-            },
-            {
-               "tipus":"mp3",
-               "url":"video.mp3"
-            }
-         ],
-         "puntuacion":5,
-         "valoracions":[
-            {
-               "puntuacio":5,
-               "nom": "Juan",
-               "text": "sdvdsvcs"
-            },
-            {
-               "puntuacio":5,
-               "nom": "Pepe",
-               "text": "sdvdsvcs"
-            }
-         ],
-         "comentaris":[
-            {
-               "nom": "Juan",
-               "text": "sdvdsvcs"
-            },
-            {
-               "nom": "Pepe",
-               "text": "sdvdsvcs"
-            }
-         ],
-         "visualizaciones":0,
-         "likes":3,
-         "startDate":"2020-03-20",
-         "startTime":"12:00",
-         "endDate":"2020-03-22",
-         "endTime":"24:00",
-         "precio-nuevo":50,
-         "precio-venta":40,
-         "precio-subasta":35,
-         "incremento-subasta":5,
-         "indicador-precio":3,
-         "venta":true,
-         "vendido":false,
-         "subasta":false,
-         "subastado":true,
-         "intercambio":true,
-         "cambiado":false,
-         "comment-intercambio":"Texto explicando la propuesta de intercambio",
-         "geo1":{
-            "address":"Carrer de Francesc Vidal I Sureda, 23",
-            "lat":39.5727196,
-            "long":2.6257796,
-            "city":"Palma de Mallorca",
-            "country":"España",
-            "zip":"07015"
-         },
-         "tags-propios":[
-            "novedad",
-            "moda",
-            "camiseta",
-            "marcas",
-            "estampado",
-            "joven",
-            "amarillo"
-         ],
-         "data-propios":[
-            {
-               "marca":"Jack & Jones",
-               "estat":"com nou",
-               "anydecompra":"2019",
-               "talla":"M",
-               "material":"cotó",
-               "color":"groc",
-               "sexe":"unisex"
-            }
-         ]
-      },
-      {
-         "name":"Nike MD Runner 2",
-         "description":"Zapatillas de Running",
-         "detalle":"detalle de la descripción",
-         "tipo":"zapato",
-         "identificador":2,
-         "cantidad":1,
-         "icones":[
-            "http://alumnes-ltim.uib.es/tm/icon1.svg",
-            "http://alumnes-ltim.uib.es/tm/icon2.gif"
-         ],
-         "images":[
-            "https://alumnes-ltim.uib.es/~tm2013/img/product/p4.jpg",
-            "https://alumnes-ltim.uib.es/~tm2013/img/product/p2.jpg"
-         ],
-         "videos":[
-            {
-               "tipus":"youtube",
-               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
-            },
-            {
-               "tipus":"mp4",
-               "url":"video.mp4"
-            }
-         ],
-         "audios":[
-            {
-               "tipus":"youtube",
-               "url":"https: //www.youtube.com/watch?v=jNQXAC9IVRw"
-            },
-            {
-               "tipus":"mp3",
-               "url":"video.mp3"
-            }
-         ],
-         "puntuacion":8,
-         "valoracions":[
-            {
-               "puntuacio":5,
-               "nom": "Juan",
-               "text": "sdvdsvcs"
-            },
-            {
-               "puntuacio":5,
-               "nom": "Pepe",
-               "text": "sdvdsvcs"
-            }
-         ],
-         "comentaris":[
-            {
-               "nom": "Juan",
-               "text": "sdvdsvcs"
-            },
-            {
-               "nom": "Pepe",
-               "text": "sdvdsvcs"
-            }
-         ],
-         "visualizaciones":2109,
-         "likes":1673,
-         "startDate":"2020-03-23",
-         "startTime":"00:00",
-         "endDate":"2020-06-23",
-         "endTime":"23:59",
-         "precio-nuevo":81.92,
-         "precio-venta":45.99,
-         "precio-subasta":25,
-         "incremento-subasta":5,
-         "indicador-precio":3,
-         "venta":true,
-         "vendido":false,
-         "subasta":false,
-         "subastado":true,
-         "intercambio":true,
-         "cambiado":false,
-         "comment-intercambio":"Texto explicando la propuesta de intercambio",
-         "geo1":{
-            "address":"Carrer de Francesc Vidal I Sureda, 23",
-            "lat":39.5727196,
-            "long":2.6257796,
-            "city":"Palma de Mallorca",
-            "country":"España",
-            "zip":"07015"
-         },
-         "tags-propios":[
-            "moda",
-            "zapatillas",
-            "marcas",
-            "estampado",
-            "joven",
-            "negro"
-         ],
-         "data-propios":[
-            {
-               "marca":"Nike",
-               "estat":"nuevo",
-               "anydecompra":"2020",
-               "talla":"42",
-               "material":"cuero",
-               "color":"negro",
-               "sexe":"unisex"
-            }
-         ]
-      },
-      {
          "name":"Camiseta Groot Motivo De Logo Rojo",
          "description":" • Manga corta • Cuello redondo • Motivo de logo delante",
          "detalle":"COMPOSICIÓN: • 100% algodón CUIDADOS: • Lavar a máquina máx. 30ºC",
          "tipo":"camiseta",
-         "identificador":3,
+         "identificador":1,
          "cantidad":1,
          "icones":[
 
@@ -225,32 +16,32 @@
             "https://alumnes-ltim.uib.es/~tm2013/images-json/pepe3.jpg"
          ],
          "videos":[
-            
 
          ],
          "audios":[
+
          ],
          "puntuacion":8,
          "valoracions":[
             {
                "puntuacio":5,
-               "nom": "Juan",
-               "text": "sdvdsvcs"
+               "nom":"Juan",
+               "text":"sdvdsvcs"
             },
             {
                "puntuacio":5,
-               "nom": "Pepe",
-               "text": "sdvdsvcs"
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
             }
          ],
          "comentaris":[
             {
-               "nom": "Juan",
-               "text": "sdvdsvcs"
+               "nom":"Juan",
+               "text":"sdvdsvcs"
             },
             {
-               "nom": "Pepe",
-               "text": "sdvdsvcs"
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
             }
          ],
          "visualizaciones":2109,
@@ -284,7 +75,8 @@
             "marcas",
             "estampado",
             "joven",
-            "negro"
+            "negro",
+            "novedad"
          ],
          "data-propios":[
             {
@@ -295,6 +87,458 @@
                "material":"Algodón",
                "color":"Rojo y azul oscuro",
                "sexe":"hombre"
+            }
+         ]
+      },
+      {
+         "name":"Short De Baño Amarillo",
+         "description":"Short de baño",
+         "detalle":"COMPOSICIÓN: • 100% algodón CUIDADOS: • Lavar a máquina máx. 30ºC",
+         "tipo":"bañador",
+         "identificador":2,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/rear.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/side.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/detail.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/detail2.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/2/detail_rear.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":20.00,
+         "precio-venta":9.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "estampado",
+            "joven",
+            "amarillo"
+         ],
+         "data-propios":[
+            {
+               "marca":"Quick Silver",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":"100% poliéster",
+               "color":"Amarillo",
+               "sexe":"hombre"
+            }
+         ]
+      },
+      {
+         "name":"Sneakers Negro",
+         "description":"Sneakers Punta redonda",
+         "detalle":"COMPOSICIÓN: • Exterior: textil, Suela: caucho CUIDADOS: • Lavar a mano",
+         "tipo":"zapato",
+         "identificador":3,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/3/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/3/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/3/top.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/3/left.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/3/right.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/3/bottom.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":85.99,
+         "precio-venta":34.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "joven",
+            "negro"
+         ],
+         "data-propios":[
+            {
+               "marca":"Quick Silver",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"43",
+               "material":"textil, caucho",
+               "color":"negro",
+               "sexe":"hombre"
+            }
+         ]
+      },
+      {
+         "name":"Parka Azul",
+         "description":"Parka azul con capucha",
+         "detalle":"CUIDADOS: Lavar a máquina máx. 30ºC",
+         "tipo":"chaqueta",
+         "identificador":4,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/4/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/4/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/4/front_open.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/4/rear.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":120.99,
+         "precio-venta":54.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "niño",
+            "negro"
+         ],
+         "data-propios":[
+            {
+               "marca":"Quick Silver",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":"100% poliéster",
+               "color":"negro",
+               "sexe":"hombre"
+            }
+         ]
+      },
+      {
+         "name":"Vestido Estampado Floral Blanco Y Multicolor",
+         "description":"Vestido, Tirantes anchos, Cuello de pico, Cremallera invisible a un lado, Estampado floral, Con volantes",
+         "detalle":"CUIDADOS: Lavar a mano en agua fría",
+         "tipo":"vestido",
+         "identificador":5,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/5/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/5/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/5/rear.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/5/side.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":110,
+         "precio-venta":37.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "blanco",
+            "multicolor",
+            "novedad"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Peace and love by alao",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":"100% algodón",
+               "color":"Blanco y multicolor",
+               "sexe":"mujer"
+            }
+         ]
+      },
+      {
+         "name":"Túnica Plisado Acordeón Rojo",
+         "description":"Túnica, Sin mangas, Cuello de pico, Estampado floral, Plisado acordeón, Lazo decorativo en el pecho",
+         "detalle":"CUIDADOS: Lavar a mano en agua fría",
+         "tipo":"vestido",
+         "identificador":6,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/6/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/6/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/6/rear.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/6/detail.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":86,
+         "precio-venta":17.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "blanco",
+            "multicolor",
+            "novedad"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Peace and love by alao",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":"100% viscosa",
+               "color":"Rojo, azul y blanco",
+               "sexe":"mujer"
             }
          ]
       }
