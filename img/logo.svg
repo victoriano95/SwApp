@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="130px" height="33px" viewBox="0 0 130 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="137px" height="46px" viewBox="0 0 137 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
     <title>logo + icono</title>
     <desc>Created with Sketch.</desc>
@@ -14,13 +14,14 @@
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo-+-icono" transform="translate(0.000000, -3.000000)">
+        <g id="logo-+-icono">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="137" height="45.4545455"></rect>
             <text id="SwApp" fill="url(#linearGradient-1)" font-family="HiraginoSans-W0, Hiragino Sans" font-size="32" font-weight="200" letter-spacing="0.28">
-                <tspan x="29" y="28">SwApp</tspan>
+                <tspan x="29.8721805" y="30.2559742">SwApp</tspan>
             </text>
-            <g id="icono" transform="translate(14.500000, 19.500000) scale(-1, 1) translate(-14.500000, -19.500000) translate(0.000000, 5.000000)" fill="url(#linearGradient-2)">
-                <polygon id="Path" points="10.7263946 24 14.8577701 19.7940382 8.19827747 12.9839229 17 4.13118067 12.869405 0 0 12.9839229"></polygon>
-                <polygon id="Path" transform="translate(20.500000, 17.000000) scale(-1, 1) translate(-20.500000, -17.000000) " points="25.0947192 29 29 24.8072466 20.5 16.0212858 27.0530229 9.13785677 22.9929903 5 12 16.0212858"></polygon>
+            <g id="icono" transform="translate(14.936090, 22.447831) scale(-1, 1) translate(-14.936090, -22.447831) translate(0.000000, 9.135807)" fill="url(#linearGradient-2)">
+                <polygon id="Path" points="11.048993 22.0336939 15.3046203 18.1723241 8.44484221 11.9201576 17.5112782 3.79271543 13.2564547 0 0 11.9201576"></polygon>
+                <polygon id="Path" transform="translate(21.116541, 15.607200) scale(-1, 1) translate(-21.116541, -15.607200) " points="25.8494476 26.6240467 29.8721805 22.7748032 21.1165414 14.7086711 27.8666477 8.38919745 23.6845088 4.59035289 12.3609023 14.7086711"></polygon>
             </g>
         </g>
     </g>
