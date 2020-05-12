@@ -49,7 +49,7 @@ request.onreadystatechange = function() {
         var div_review_list = document.getElementById("review_list");
         div_review_list.innerHTML = get_single_product_review_list(producto);
 
-        var div_review_total_rate = document.getElementById("total_rate");
+        var div_review_total_rate = document.getElementById("total_rate_nota");
         div_review_total_rate.innerHTML = get_single_product_review_total_rate(producto);
         
         var div_comment_list = document.getElementById("comment_list");

@@ -117,14 +117,7 @@ function get_single_product_review_total_rate(json_object){
 
 	div_text = '<div class="row total_rate" id="total_rate"> <div class="col-6"> <div class="box_total">' + 
 			'<h5>Total</h5> <h4>' + media + '</h4> <h6>(' + media + ' Opiniones)</h6></div></div>'+
-	'<div class="col-6"> <div class="rating_list"><h3>basado en ' + '3 Opiniones</h3>' +
-			'<ul class="list">' +
-			    '<li><a href="#">5 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
-				'<li><a href="#">4 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
-				'<li><a href="#">3 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
-				'<li><a href="#">2 Estrellas <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
-				'<li><a href="#">1 Estrella <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 01</a></li>' +
-			'</ul></div></div></div>';
+	'<div class="col-6"> <div class="rating_list"><h3>basado en ' + '3 Opiniones</h3>';
 
 	return div_text;
 }
