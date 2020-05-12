@@ -541,6 +541,369 @@
                "sexe":"mujer"
             }
          ]
+      },
+      {
+         "name":"Bolso Acolchado Azul Oscuro 28x17x13 cm",
+         "description":"Bolso, 1 asa + bandolera ajustable extraíble",
+         "detalle":"Bolso, 1 asa + bandolera ajustable extraíble, 1 bolsillo con cremallera delante, Cierre con botones a presión, Logo en relieve, Acolchado, Interior: 1 bolsillo con cremallera. CUIDADOS: Lavar a mano en agua fría",
+         "tipo":"bolso",
+         "identificador":7,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/7/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/7/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/7/back.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/7/side.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/7/detail.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":214.00,
+         "precio-venta":109.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "novedad",
+            "bolso"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Love Moschino",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"28 x 17 x 13 cm (ancho x alto x profundidad)",
+               "material":"Poliuretano, Forro: poliéster",
+               "color":"Azul",
+               "sexe":"mujer"
+            }
+         ]
+      },
+      {
+         "name":"Mochila Con Textura Nude Y Rojo 29x34x14 cm",
+         "description":"Mochila 1 asa + 2 correas ajustables",
+         "detalle":"Mochila, 1 asa + 2 correas ajustables, 1 bolsillo con cremallera detrás, Cierre con cremallera, Inscripción bordada de la marca, Con textura, Interior: 1 bolsillo con cremallera, 1 bolsillo",
+         "tipo":"mochila",
+         "identificador":8,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/8/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/8/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/8/back.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/8/side.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/8/detail.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":105.00,
+         "precio-venta":99.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "novedad",
+            "mochila"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Love Moschino",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"29 x 34 x 14 cm (ancho x alto x profundidad)",
+               "material":"Poliéster,Poliuretano, Forro: poliéster",
+               "color":"Nude y rojo",
+               "sexe":"mujer"
+            }
+         ]
+      },
+      {
+         "name":"Sneakers Negro Suela: 3.5 cm",
+         "description":"Sneakers, Punta redonda",
+         "detalle":"Sneakers, Punta redonda, Cierre con cordones, Logo, Aplique decorativa, Acolchado, Suela antideslizante, Suela: 3.5 cm",
+         "tipo":"zapato",
+         "identificador":9,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/back.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/bottom.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/top.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/side.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":214.00,
+         "precio-venta":109.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "novedad",
+            "zapatos"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Love Moschino",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"38",
+               "material":"Exterior: poliéster, napa de becerro; Interior: poliéster, napa de becerro; Suela: goma",
+               "color":"Negro",
+               "sexe":"mujer"
+            }
+         ]
+      },
+      {
+         "name":"Gafas De Sol Ray Ban",
+         "description":"Rb3587ch0296o61 Plateado Gris; limpieza y manutención: limpiar las gafas con agua y jabón. no utilice paños sucios o abrasivos, que puedan alterar las características de los filtros. utilice solo accesorios y repuestos originales.",
+         "detalle":"Gafas con montura metálica. forma aviador. lentes polarizadas patillas metálicas acabadas en acetato. 100% protección uv. cristales antirreflejo. Todos nuestros productos se envían en el interior de su estuche original. Incluye una gamuza limpia cristales, los certificados de autenticidad y garantía.",
+         "tipo":"gafas de sol",
+         "identificador":10,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/front.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/front2.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/9/case.webp"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":214.00,
+         "precio-venta":109.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "unisex",
+            "novedad",
+            "gafas"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Love Moschino",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"alto lente: 53 mm. Ancho lente: 61 mm. Puente: 15 mm. Patillas: 140 mm.",
+               "material":"metal y crital",
+               "color":"plata",
+               "sexe":"unisex"
+            }
+         ]
       }
    ]
 }
