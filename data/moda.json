@@ -895,13 +895,461 @@
          ],
          "data-propios":[
             {
-               "marca":"Love Moschino",
+               "marca":"Ray Ban",
                "estat":"nuevo",
                "anydecompra":"2020",
                "talla":"alto lente: 53 mm. Ancho lente: 61 mm. Puente: 15 mm. Patillas: 140 mm.",
                "material":"metal y crital",
                "color":"plata",
                "sexe":"unisex"
+            }
+         ]
+      },
+      {
+         "name":"Gafas De Sol Ray Ban Lila",
+         "description":"Rb42461221c351 Lila; limpieza y manutención: limpiar las gafas con agua y jabón. no utilice paños sucios o abrasivos, que puedan alterar las características de los filtros. utilice solo accesorios y repuestos originales.",
+         "detalle":"Gafas con montura de acetato con acabado metálico en la parte inferior de los lentes. forma ovalada. patillas de acetato con el nombre de la marca en metálico. 100% protección uv. cristales antirreflejo. Todos nuestros productos se envían en el interior de su estuche original. Incluye una gamuza limpia cristales, los certificados de autenticidad y garantía.",
+         "tipo":"gafas de sol",
+         "identificador":11,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/front.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/front2.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/case.webp"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":181.00,
+         "precio-venta":111.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "unisex",
+            "novedad",
+            "gafas"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Ray Ban",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"alto lente: 46 mm. Ancho lente: 51 mm. Puente: 19 mm. Patillas: 145 mm.",
+               "material":"Acetato.",
+               "color":"Lila",
+               "sexe":"unisex"
+            }
+         ]
+      },
+      {
+         "name":"Pijama Disney Cars 21586 Azul",
+         "description":"Con escote canalé.cuello: redondo.pantalón con pretina elastizada para mayor confort.instrucciones de lavado: lavado a máquina 40°.",
+         "detalle":"Colección: permanent collection / carry over.",
+         "tipo":"pijama",
+         "identificador":12,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/icon.webp"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/front.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/back.webp"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":35.05,
+         "precio-venta":21.57,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "niño",
+            "novedad",
+            "pijama"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Disney",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":" 100% poliéster.",
+               "color":"azul y gris",
+               "sexe":"-"
+            }
+         ]
+      },
+      {
+         "name":"Pijama Tutto Piccolo 2091w16 Rojo",
+         "description":"Pijama de una pieza tundosado. cuello redondo cerrado. Cierre de botones en la parte trasera y bajera. Diseño divertido en el frontal con el nombre de la marca bordado.",
+         "detalle":"Colección: autumn/winter 2018. composición: 80% algodón 20% poliester. instrucciones de lavado: lavar máximo a 40ºc. planchar a media temperatura, máx. 150ºc. no permite usar secadora. no usar lejía. no admite el lavado en seco.",
+         "tipo":"pijama",
+         "identificador":13,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/icon.webp"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/front.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/detail.webp",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/back.webp"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":40.05,
+         "precio-venta":17.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "niño",
+            "novedad",
+            "pijama"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Tutto Piccolo",
+               "estat":"usado",
+               "anydecompra":"2018",
+               "talla":"s",
+               "material":" 80% Algodón - 20% Poliester..",
+               "color":"azul y gris",
+               "sexe":"-"
+            }
+         ]
+      },
+      {
+         "name":"Chaqueta Puffer Negro",
+         "description":"Chaqueta Puffer Negro, Corte ancho Puños elásticos Cuello alto Capucha Cierre con cremallera Bolsillo con cremallera en el interior Forrado",
+         "detalle":"CUIDADOS: Lavar a máquina máx. 30ºC",
+         "tipo":"chaqueta",
+         "identificador":14,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/14/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/14/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/14/front2.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/14/back.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":100.05,
+         "precio-venta":89.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "novedad",
+            "chaqueta"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Lee",
+               "estat":"nuevo",
+               "anydecompra":"2019",
+               "talla":"L",
+               "material":" 100% poliamida",
+               "color":"Negro",
+               "sexe":"mujer"
+            }
+         ]
+      },
+      {
+         "name":"Chaqueta Puffer Azul",
+         "description":"Chaqueta Puffer Azul, Chaqueta Corte ancho Puños elásticos Cuello alto Capucha extraíble Cierre con cremallera Bolsillo con cremallera en el interior 2 bolsillos delante",
+         "detalle":"CUIDADOS: Lavar a máquina máx. 30ºC",
+         "tipo":"chaqueta",
+         "identificador":15,
+         "cantidad":1,
+         "icones":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/15/icon.png"
+         ],
+         "images":[
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/15/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/15/front2.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/15/back.jpg"
+         ],
+         "videos":[
+
+         ],
+         "audios":[
+
+         ],
+         "puntuacion":5,
+         "valoracions":[
+            {
+               "puntuacio":5,
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "puntuacio":5,
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "comentaris":[
+            {
+               "nom":"Juan",
+               "text":"sdvdsvcs"
+            },
+            {
+               "nom":"Pepe",
+               "text":"sdvdsvcs"
+            }
+         ],
+         "visualizaciones":0,
+         "likes":0,
+         "startDate":"2020-03-23",
+         "startTime":"00:00",
+         "endDate":"2020-06-23",
+         "endTime":"23:59",
+         "precio-nuevo":100.05,
+         "precio-venta":80.99,
+         "precio-subasta":null,
+         "incremento-subasta":null,
+         "indicador-precio":null,
+         "venta":true,
+         "vendido":false,
+         "subasta":false,
+         "subastado":false,
+         "intercambio":false,
+         "cambiado":false,
+         "comment-intercambio":"",
+         "geo1":{
+            "address":"Carrer de Francesc Vidal I Sureda, 23",
+            "lat":39.5727196,
+            "long":2.6257796,
+            "city":"Palma de Mallorca",
+            "country":"España",
+            "zip":"07015"
+         },
+         "tags-propios":[
+            "moda",
+            "marcas",
+            "mujer",
+            "novedad",
+            "chaqueta"
+
+         ],
+         "data-propios":[
+            {
+               "marca":"Lee",
+               "estat":"nuevo",
+               "anydecompra":"2020",
+               "talla":"M",
+               "material":" 100% poliamida",
+               "color":"Azul",
+               "sexe":"mujer"
             }
          ]
       }
