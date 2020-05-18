@@ -11,8 +11,10 @@ for(var i = 0; i<URLs.length ; i++){
             div.innerHTML = "";
             var jsonfile = JSON.parse(this.responseText);
             var novedades = get_productos_con_tag_propio("novedad", jsonfile);
-            for(item in novedades){
-                pintarProducto(novedades[item]);
+            
+            for (item = 0; (item < novedades.length && item < 6); item++) {
+                pintarProducto(novedades[item], categories[i]); 
+                console.log(novedades[item]);
             }
         }
     }

@@ -24,6 +24,7 @@ function pintarProducto(item, categoria){
     document.getElementById("lista_productos").innerHTML += producte;
 }
 
+
 function get_producto_por_id(identificador, json_object){
     console.log(json_object);
     for(item in json_object){
