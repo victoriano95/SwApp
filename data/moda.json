@@ -828,9 +828,9 @@
             "https://alumnes-ltim.uib.es/~tm2013/images-json/10/icon.png"
          ],
          "images":[
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/front.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/front2.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/case.webp"
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/front2.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/10/case.jpg"
          ],
          "videos":[
 
@@ -918,9 +918,9 @@
             "https://alumnes-ltim.uib.es/~tm2013/images-json/11/icon.png"
          ],
          "images":[
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/front.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/front2.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/case.webp"
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/front2.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/11/case.jpg"
          ],
          "videos":[
 
@@ -1004,11 +1004,11 @@
          "identificador":12,
          "cantidad":1,
          "icones":[
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/icon.webp"
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/icon.jpg"
          ],
          "images":[
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/front.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/back.webp"
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/12/back.jpg"
          ],
          "videos":[
 
@@ -1094,12 +1094,12 @@
          "identificador":13,
          "cantidad":1,
          "icones":[
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/icon.webp"
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/icon.jpg"
          ],
          "images":[
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/front.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/detail.webp",
-            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/back.webp"
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/front.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/detail.jpg",
+            "https://alumnes-ltim.uib.es/~tm2013/images-json/13/back.jpg"
          ],
          "videos":[
 
