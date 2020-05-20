@@ -76,7 +76,8 @@
             "estampado",
             "joven",
             "negro",
-            "novedad"
+            "novedad",
+            "promo"
          ],
          "data-propios":[
             {
@@ -890,6 +891,7 @@
             "moda",
             "unisex",
             "novedad",
+            "promo",
             "gafas"
 
          ],
@@ -1068,6 +1070,7 @@
             "marcas",
             "niño",
             "novedad",
+            "promo",
             "pijama"
 
          ],

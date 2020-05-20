@@ -25,6 +25,42 @@ function pintarProducto(item, categoria){
 }
 
 
+
+function pintarProductoexclusive(item, categoria){
+    var producte = '<div class="single-exclusive-slider">'+
+                        '<img class="img-fluid" src="' + item['images'][0] + '" alt="">'+
+                        '<div class="product-details">'+
+                            '<div class="price">'+
+                                '<h6>'+item['precio-venta']+'</h6>'+
+                                '<h6 class="l-through">'+item['precio-venta']+'</h6>'+
+                            '</div>'+
+                            '<h4>'+item['name']+'</h4>'+
+                            '<div class="add-bag d-flex align-items-center justify-content-center">'+
+                                '<a class= "add-button" href="single-product.html?categoria='+categoria+'&id='+item['identificador']+'"><span class="ti-bag"></span>'+
+                                '<span class="add-text text-uppercase">Ver más</span></a>'+
+                            '</div>'+
+                        '</div>'+
+                    '</div>';
+    document.getElementById("exclusive").innerHTML += producte;
+}
+
+
+
+function pintarProductoweekpromo(item, categoria){
+    var producte = '<div class="col-lg-4 col-md-4 col-sm-6 mb-20">'+
+    '<div class="single-related-product d-flex">'+
+        '<a href="single-product.html?categoria='+categoria+'&id='+item['identificador']+'"><img width="70" height="70" src="' + item['images'][0] + '" alt=""></a>'+
+        '<div class="desc">'+
+            '<a href="single-product.html?categoria='+categoria+'&id='+item['identificador']+'" class="title">'+item['name']+'</a>'+
+            '<div class="price">'+
+                '<h6>'+item['precio-venta']+'</h6>'+
+                '<h6 class="l-through">'+item['precio-venta']+'</h6>'+
+            '</div>'+
+        '</div>'+
+    '</div>'+
+'</div>';
+    document.getElementById("week_promo").innerHTML += producte;
+}
 function get_producto_por_id(identificador, json_object){
     console.log(json_object);
     for(item in json_object){
@@ -37,13 +73,13 @@ function get_producto_por_id(identificador, json_object){
     return null;
 }
 
-function get_productos_con_tag_propio(tag, json_object){
+function get_productos_con_tag_propio(tagg, json_object){
     var productos = [];
     for(item in json_object.moda){
         var elemento = json_object.moda[item];
         if(elemento['tags-propios'] != null){
             for(tag in elemento['tags-propios']){
-                if(elemento['tags-propios'][tag] == 'novedad'){
+                if(elemento['tags-propios'][tag] == tagg){
                     productos.push(elemento);
                 }
             }
