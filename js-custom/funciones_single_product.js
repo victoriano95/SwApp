@@ -102,28 +102,36 @@ function get_single_product_review_list(json_object){
 	}
 	return div_text;
 }
+
 //no hay manera de que funcione
 function get_single_product_review_total_rate(json_object){
 	var reseñas = json_object["valoracions"];
-	var div_text = 	"";
-	var media=0;
-	for(res in reseñas){
-		media +=reseñas[res].puntuacio;
+	var div_text = "";
+	var media = 0;
+	var numero_reseñas = 0;
+	if(reseñas != undefined){
+		for(res in reseñas){
+			media += reseñas[res].puntuacio;
+			numero_reseñas++;
+		}
+		media = media / numero_reseñas;
 	}
-	media = media / reseñas.length();
-	media = 4;
-	//div_text = "Nota media: "+media;
-
-
-	div_text = '<div class="row total_rate" id="total_rate"> <div class="col-6"> <div class="box_total">' + 
-			'<h5>Total</h5> <h4>' + media + '</h4> <h6>(' + media + ' Opiniones)</h6></div></div>'+
-	'<div class="col-6"> <div class="rating_list"><h3>basado en ' + '3 Opiniones</h3>';
-
+	div_text = '<div class="row total_rate" id="total_rate">' +
+					'<div class="col-6">' +
+						'<div class="box_total">' + 
+							'<h5>Total</h5>' +
+							'<h4>' + media + '</h4>' +
+							'<h6>(' + numero_reseñas + ' Opiniones)</h6>'
+						'</div>' +
+					'</div>' +
+					'<div class="col-6">'
+						'<div class="rating_list">' +
+							'<h3>Basado en ' + numero_reseñas + ' Opiniones</h3>' +
+						'</div>' +
+					'</div>' +
+				'</div>';
 	return div_text;
 }
-
-
-
 
 function get_single_product_comment_list(json_object){
 	var comentarios = json_object["comentaris"];

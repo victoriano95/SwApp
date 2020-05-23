@@ -26,22 +26,22 @@
             {
                "puntuacio":5,
                "nom":"Juan",
-               "text":"sdvdsvcs"
+               "text":"Pues me ha gustao, todo estaba buenísimo."
             },
             {
-               "puntuacio":5,
+               "puntuacio":4,
                "nom":"Pepe",
-               "text":"sdvdsvcs"
+               "text":"Muy bueno todo, como pega diría que la carne estaba demasiado hecha."
             }
          ],
          "comentaris":[
             {
                "nom":"Juan",
-               "text":"sdvdsvcs"
+               "text":"Pues me ha gustao, todo estaba buenísimo."
             },
             {
                "nom":"Pepe",
-               "text":"sdvdsvcs"
+               "text":"Muy bueno todo, como pega diría que la carne estaba demasiado hecha."
             }
          ],
          "visualizaciones":2109,
