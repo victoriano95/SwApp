@@ -1,7 +1,7 @@
-var URLs = ["data/moda.json", "data/moda.json", "data/moda.json"]
-var categories = ["moda", "moda", "moda"]
-//var URLs = ["data/moda.json", "data/autoverde.json", "data/digital.json"]
-//var categories = ["moda", "autoverde", "digital"]
+//var URLs = ["data/moda.json", "data/moda.json", "data/moda.json"]
+//var categories = ["moda", "moda", "moda"]
+var URLs = ["data/moda.json", "data/AutoVerde.json", "data/Digital.json"]
+var categories = ["moda", "AutoVerde", "Digital"]
 for(var i = 0; i<URLs.length ; i++){
     var requestURL = URLs[i];
     var request = new XMLHttpRequest();
