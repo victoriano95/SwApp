@@ -53,8 +53,8 @@ function pintarProductoweekpromo(item, categoria){
         '<div class="desc">'+
             '<a href="single-product.html?categoria='+categoria+'&id='+item['identificador']+'" class="title">'+item['name']+'</a>'+
             '<div class="price">'+
-                '<h6>'+item['precio-venta']+'</h6>'+
-                '<h6 class="l-through">'+item['precio-venta']+'</h6>'+
+                '<h6>'+item['precio-venta']+'€</h6>'+
+                '<h6 class="l-through">'+item['precio-venta']+'€</h6>'+
             '</div>'+
         '</div>'+
     '</div>'+
