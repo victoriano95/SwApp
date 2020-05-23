@@ -9,7 +9,7 @@ for(var i = 0; i<URLs.length ; i++){
             var jsonfile = JSON.parse(this.responseText);
             var novedades = get_productos_con_tag_propio("novedad", jsonfile, categories[i]);
             
-            for (item = 0; (item < novedades.length && item < 6); item++) {
+            for (item = 0; (item < novedades.length && item < 100); item++) {
                 pintarProducto(novedades[item], categories[i]); 
                 console.log("pintao item: "+item+", categoria: "+categories[i]);
             }
