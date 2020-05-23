@@ -1,20 +1,17 @@
-//var URLs = ["data/moda.json", "data/autoverde.json", "data/digital.json"]
-//var categories = ["moda", "autoverde", "digital"]
-var URLs = ["data/moda.json", "data/moda.json", "data/moda.json"]
-var categories = ["moda", "moda", "moda"]
+var URLs = ["data/moda.json", "data/AutoVerde.json", "data/Digital.json"]
+var categories = ["moda", "AutoVerde", "Digital"]
 for(var i = 0; i<URLs.length ; i++){
     var requestURL = URLs[i];
     var request = new XMLHttpRequest();
     request.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            var div = document.getElementById("lista_productos");
-            div.innerHTML = "";
+            console.log("leido fichero: "+requestURL);
             var jsonfile = JSON.parse(this.responseText);
-            var novedades = get_productos_con_tag_propio("novedad", jsonfile);
+            var novedades = get_productos_con_tag_propio("novedad", jsonfile, categories[i]);
             
             for (item = 0; (item < novedades.length && item < 6); item++) {
                 pintarProducto(novedades[item], categories[i]); 
-                console.log(novedades[item]);
+                console.log("pintao item: "+item+", categoria: "+categories[i]);
             }
         }
     }

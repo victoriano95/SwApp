@@ -73,10 +73,10 @@ function get_producto_por_id(identificador, json_object){
     return null;
 }
 
-function get_productos_con_tag_propio(tagg, json_object){
+function get_productos_con_tag_propio(tagg, json_object, categoria){
     var productos = [];
-    for(item in json_object.moda){
-        var elemento = json_object.moda[item];
+    for(item in json_object[categoria]){   
+        var elemento = json_object[categoria][item];
         if(elemento['tags-propios'] != null){
             for(tag in elemento['tags-propios']){
                 if(elemento['tags-propios'][tag] == tagg){
