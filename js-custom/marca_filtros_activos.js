@@ -5,6 +5,7 @@ var marca = urlParams.getAll('marca');
 var color = urlParams.getAll('color');
 var material = urlParams.getAll('material');
 
+	//alert(document.getElementById('filtro_'+categoria[0]));
 if(categoria.length > 0){
 	document.getElementById('filtro_'+categoria[0]).checked = true;
 }

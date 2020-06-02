@@ -143,71 +143,34 @@
 				<div class="common-filter">
 					<div class="head"></div>
 					<form action="#">
-						<ul><br>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_moda" name="moda" onclick="filtrar('categoria', this)"><label for="filtro_moda">Moda<span>(29)</span></label>
-							</li>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_AutoVerde" name="AutoVerde" onclick="filtrar('categoria', this)"><label for="filtro_AutoVerde">AutoVerde<span>(29)</span></label>
-							</li>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_Digital" name="Digital" onclick="filtrar('categoria', this)"><label for="filtro_Digital">Digital<span>(29)</span></label>
-							</li>
+						<ul id="lista_filtros_categoria"><br>
 						</ul>
 					</form>
 				</div>
 			</div>
+
 			<div class="sidebar-filter mt-50">
 				<div class="top-filter-head">Filtros</div>
 				<div class="common-filter">
 					<div class="head">Tipo de intercambio</div>
 					<form action="#">
-						<ul>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_venta" name="venta" onclick="filtrar('tipo', this)"><label for="filtro_venta">Venta<span>(29)</span></label>
-							</li>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_intercambio" name="intercambio" onclick="filtrar('tipo', this)"><label for="filtro_intercambio">Intercambio<span>(29)</span></label>
-							</li>
+						<ul id="lista_filtros_tipo_intercambio"><br>
 						</ul>
 					</form>
 				</div>
-				<div class="common-filter">
-					<div class="head">Marcas</div>
-					<form action="#">
-						<ul>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_apple" name="apple" onclick="filtrar('marca', this)"><label for="filtro_apple">Apple<span>(29)</span></label>
-							</li>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_Square Enix" name="Square Enix" onclick="filtrar('marca', this)"><label for="filtro_Square Enix">Square Enix<span>(29)</span></label>
-							</li>
-						</ul>
-					</form>
-				</div>
+
 				<div class="common-filter">
 					<div class="head">Color</div>
 					<form action="#">
-						<ul id="filtros_color">
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_negro" name="negro" onclick="filtrar('color', this)"><label for="filtro_negro">Negro<span>(29)</span></label>
-							</li>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_rojo" name="rojo" onclick="filtrar('color', this)"><label for="filtro_rojo">Rojo<span>(29)</span></label>
-							</li>
+						<ul id="lista_filtros_color">
 						</ul>
 					</form>
 				</div>
+
 				<div class="common-filter">
 					<div class="head">Material</div>
 					<form action="#">
-						<ul>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_black" name="black" onclick="filtrar('material', this)"><label for="filtro_black">Black<span>(29)</span></label>
-							</li>
-							<li class="filter-list">
-								<input class="pixel-radio" type="radio" id="filtro_100% poliéster" name="100% poliéster" onclick="filtrar('material', this)"><label for="filtro_100% poliéster">100% poliéster<span>(29)</span></label>
-							</li>
+						<ul id="lista_filtros_material">
 						</ul>
 					</form>
 				</div>
@@ -225,6 +188,15 @@
 							<div id="upper-value"></div>
 						</div>
 					</div>
+				</div>
+
+				<div class="common-filter">
+					<div class="head">Marcas</div>
+					<form action="#">
+						<ul id="lista_filtros_marca">
+							
+						</ul>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -576,6 +548,7 @@
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/main.js"></script>
 
+	<script src="js-custom/monta_lista_filtros.js"></script>
 	<script src="js-custom/marca_filtros_activos.js"></script>
 	<script src="js-custom/loader_productos.js"></script>
 	<script src="js-custom/loader_inicio_week_promo.js"></script>

@@ -24,7 +24,18 @@ function pintarProducto(item, categoria){
     document.getElementById("lista_productos").innerHTML += producte;
 }
 
-
+function pintar_elemento_lista_filtros(id_lista_filtros, id_categoria, id_filtro, name_filtro, visible_name_filtro, cantidad_registros){
+    var elemento = 
+        '<li class="filter-list">' +
+            '<input class="pixel-radio" type="radio"' +
+                ' id="' + id_filtro + '"' +
+                ' name="' + name_filtro + '"' +
+                ' onclick="filtrar(\'' + id_categoria + '\', this)">'+
+            '<label for="' + id_filtro + '">' + visible_name_filtro + '<span>(' + cantidad_registros + ')</span></label>' +
+        '</li>';
+        console.log(""+elemento);
+    document.getElementById(id_lista_filtros).innerHTML += elemento;
+}
 
 function pintarProductoexclusive(item, categoria){
     var producte = '<div class="single-exclusive-slider">'+
@@ -248,4 +259,9 @@ function get_elemento_si_material(elemento, material){
     if(elemento['data-propios'][0]['material'] == material){
         return elemento;
     }
+}
+
+const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
 }
