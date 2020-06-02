@@ -9,8 +9,7 @@ for(var i = 0; i<URLs.length ; i++){
             var promo = get_productos_con_tag_propio("promo", jsonfile, categories[i]);
             
             for (item = 0; (item < promo.length && item < 9); item++) {
-                pintarProductoweekpromo(promo[item], categories[i]); 
-                console.log("pintao item: "+item+", categoria: "+categories[i]);
+                pintarProductoweekpromo(promo[item], categories[i]);
             }
         }
     }

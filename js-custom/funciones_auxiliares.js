@@ -62,10 +62,8 @@ function pintarProductoweekpromo(item, categoria){
     document.getElementById("week_promo").innerHTML += producte;
 }
 function get_producto_por_id(identificador, json_object){
-    console.log(json_object);
     for(item in json_object){
         var elemento = json_object[item];
-        console.log(elemento);
         if(elemento['identificador'] != null && elemento['identificador'] == identificador){
             return elemento;
         }
@@ -86,4 +84,168 @@ function get_productos_con_tag_propio(tagg, json_object, categoria){
         }
     }
     return productos;
+}
+
+function anyade_parametro_individual(url, param, value){
+    if (url.indexOf('?') != -1){
+       url += '&'+param+'='+value;
+    }else{
+       url += '?'+param+'='+value;
+    }
+    return url;
+}
+
+function anyade_parametros_url(url, param, value){
+
+    var urlParams = new URLSearchParams(window.location.search);
+
+    var categoria = urlParams.getAll('categoria');
+    var tipo = urlParams.getAll('tipo');
+    var marca = urlParams.getAll('marca');
+    var color = urlParams.getAll('color');
+    var material = urlParams.getAll('material');
+
+    if(param == "categoria"){
+        categoria = [];
+        categoria.push(value);
+    }
+
+    if(param == "tipo"){
+        tipo = [];
+        tipo.push(value);
+    }
+
+    if(param == "marca"){
+        marca = [];
+        marca.push(value);
+    }
+
+    if(param == "color"){
+        color = [];
+        color.push(value);
+    }
+
+    if(param == "material"){
+        material = [];
+        material.push(value);
+    }
+
+    //console.log("categoria ");
+    //console.log(categoria);
+    //console.log("tipo ");
+    //console.log(tipo);
+    //console.log("marca ");
+    //console.log(marca);
+    //console.log("color ");
+    //console.log(color);
+    //console.log("material ");
+    //console.log(material);
+//alert("");
+
+    if(categoria.length > 0){
+        url = anyade_parametro_individual(url, 'categoria', categoria[0]);
+    }
+    if(tipo.length > 0){
+        url = anyade_parametro_individual(url, 'tipo', tipo[0]);
+    }
+    if(marca.length > 0){
+        url = anyade_parametro_individual(url, 'marca', marca[0]);
+    }
+    if(color.length > 0){
+        url = anyade_parametro_individual(url, 'color', color[0]);
+    }
+    if(material.length > 0){
+        url = anyade_parametro_individual(url, 'material', material[0]);
+    }
+
+    return url;
+}
+
+function quita_parametros_url(url, param){
+
+    var urlParams = new URLSearchParams(window.location.search);
+
+    var categoria = urlParams.getAll('categoria');
+    var tipo = urlParams.getAll('tipo');
+    var marca = urlParams.getAll('marca');
+    var color = urlParams.getAll('color');
+    var material = urlParams.getAll('material');
+
+    if(param == "categoria"){
+        categoria = [];
+    }
+
+    if(param == "tipo"){
+        tipo = [];
+    }
+
+    if(param == "marca"){
+        marca = [];
+    }
+
+    if(param == "color"){
+        color = [];
+    }
+
+    if(param == "material"){
+        material = [];
+    }
+
+    if(categoria.length > 0){
+        url = anyade_parametro_individual(url, 'categoria', categoria[0]);
+    }
+    if(tipo.length > 0){
+        url = anyade_parametro_individual(url, 'tipo', tipo[0]);
+    }
+    if(marca.length > 0){
+        url = anyade_parametro_individual(url, 'marca', marca[0]);
+    }
+    if(color.length > 0){
+        url = anyade_parametro_individual(url, 'color', color[0]);
+    }
+    if(material.length > 0){
+        url = anyade_parametro_individual(url, 'material', material[0]);
+    }
+
+    return url;
+}
+
+function filtrar(param, element){
+    var value = element.name;
+
+    var urlParams = new URLSearchParams(window.location.search);
+    var is_activo = urlParams.getAll(param)[0] == value;
+
+    var nuevaURL = 'products.html';
+    if(is_activo){
+        // Desactivamos
+        window.location.href = quita_parametros_url(nuevaURL, param);
+    }else{
+        // Activamos
+        window.location.href = anyade_parametros_url(nuevaURL, param, value);
+    }
+}
+
+function get_elemento_si_tipo(elemento, tipo){
+    if(elemento[tipo]){
+        return elemento;
+    }
+}
+
+function get_elemento_si_marca(elemento, marca){
+    if(elemento['data-propios'][0]['marca'] == marca){
+        return elemento;
+    }
+}
+
+function get_elemento_si_color(elemento, color){
+    if(elemento['tags-propios'].indexOf(color) != -1){
+        return elemento;
+    }
+}
+
+function get_elemento_si_material(elemento, material){
+    if(elemento['data-propios'][0]['material'] == material){
+        return elemento;
+    }
 }

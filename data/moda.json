@@ -26,22 +26,22 @@
             {
                "puntuacio":5,
                "nom":"Juan",
-               "text":"Pues me ha gustao, todo estaba buenísimo."
+               "text":"Buen material, buen diseño."
             },
             {
                "puntuacio":4,
                "nom":"Pepe",
-               "text":"Muy bueno todo, como pega diría que la carne estaba demasiado hecha."
+               "text":"Excelente diseño si eres fan de Guardianes de la Galaxia."
             }
          ],
          "comentaris":[
             {
                "nom":"Juan",
-               "text":"Pues me ha gustao, todo estaba buenísimo."
+               "text":"Buen material, buen diseño."
             },
             {
                "nom":"Pepe",
-               "text":"Muy bueno todo, como pega diría que la carne estaba demasiado hecha."
+               "text":"Excelente diseño si eres fan de Guardianes de la Galaxia."
             }
          ],
          "visualizaciones":2109,
@@ -75,6 +75,7 @@
             "marcas",
             "estampado",
             "joven",
+            "rojo",
             "negro",
             "novedad",
             "promo"
@@ -86,7 +87,7 @@
                "anydecompra":"2020",
                "talla":"M",
                "material":"Algodón",
-               "color":"Rojo y azul oscuro",
+               "color":"rojo",
                "sexe":"hombre"
             }
          ]
@@ -178,7 +179,7 @@
                "anydecompra":"2020",
                "talla":"M",
                "material":"100% poliéster",
-               "color":"Amarillo",
+               "color":"amarillo",
                "sexe":"hombre"
             }
          ]
@@ -259,7 +260,8 @@
             "moda",
             "marcas",
             "joven",
-            "negro"
+            "negro",
+            "caucho"
          ],
          "data-propios":[
             {
@@ -267,7 +269,7 @@
                "estat":"nuevo",
                "anydecompra":"2020",
                "talla":"43",
-               "material":"textil, caucho",
+               "material":"textil",
                "color":"negro",
                "sexe":"hombre"
             }
@@ -447,7 +449,7 @@
                "anydecompra":"2020",
                "talla":"M",
                "material":"100% algodón",
-               "color":"Blanco y multicolor",
+               "color":"blanco",
                "sexe":"mujer"
             }
          ]
@@ -526,8 +528,9 @@
             "moda",
             "marcas",
             "mujer",
+            "rojo",
             "blanco",
-            "multicolor",
+            "azul",
             "novedad"
 
          ],
@@ -538,7 +541,7 @@
                "anydecompra":"2020",
                "talla":"M",
                "material":"100% viscosa",
-               "color":"Rojo, azul y blanco",
+               "color":"rojo",
                "sexe":"mujer"
             }
          ]
@@ -619,8 +622,8 @@
             "marcas",
             "mujer",
             "novedad",
-            "bolso"
-
+            "bolso",
+            "azul"
          ],
          "data-propios":[
             {
@@ -629,7 +632,7 @@
                "anydecompra":"2020",
                "talla":"28 x 17 x 13 cm (ancho x alto x profundidad)",
                "material":"Poliuretano, Forro: poliéster",
-               "color":"Azul",
+               "color":"azul",
                "sexe":"mujer"
             }
          ]
@@ -710,8 +713,8 @@
             "marcas",
             "mujer",
             "novedad",
-            "mochila"
-
+            "mochila",
+            "rojo"
          ],
          "data-propios":[
             {
@@ -720,7 +723,7 @@
                "anydecompra":"2020",
                "talla":"29 x 34 x 14 cm (ancho x alto x profundidad)",
                "material":"Poliéster,Poliuretano, Forro: poliéster",
-               "color":"Nude y rojo",
+               "color":"rojo",
                "sexe":"mujer"
             }
          ]
@@ -802,8 +805,8 @@
             "marcas",
             "mujer",
             "novedad",
-            "zapatos"
-
+            "zapatos",
+            "negro"
          ],
          "data-propios":[
             {
@@ -812,7 +815,7 @@
                "anydecompra":"2020",
                "talla":"38",
                "material":"Exterior: poliéster, napa de becerro; Interior: poliéster, napa de becerro; Suela: goma",
-               "color":"Negro",
+               "color":"negro",
                "sexe":"mujer"
             }
          ]
@@ -892,8 +895,8 @@
             "unisex",
             "novedad",
             "promo",
-            "gafas"
-
+            "gafas",
+            "plata"
          ],
          "data-propios":[
             {
@@ -981,8 +984,8 @@
             "moda",
             "unisex",
             "novedad",
-            "gafas"
-
+            "gafas",
+            "lila"
          ],
          "data-propios":[
             {
@@ -991,7 +994,7 @@
                "anydecompra":"2020",
                "talla":"alto lente: 46 mm. Ancho lente: 51 mm. Puente: 19 mm. Patillas: 145 mm.",
                "material":"Acetato.",
-               "color":"Lila",
+               "color":"lila",
                "sexe":"unisex"
             }
          ]
@@ -1071,8 +1074,9 @@
             "niño",
             "novedad",
             "promo",
-            "pijama"
-
+            "pijama",
+            "azul",
+            "gris"
          ],
          "data-propios":[
             {
@@ -1081,7 +1085,7 @@
                "anydecompra":"2020",
                "talla":"M",
                "material":" 100% poliéster.",
-               "color":"azul y gris",
+               "color":"azul",
                "sexe":"-"
             }
          ]
@@ -1161,8 +1165,9 @@
             "marcas",
             "niño",
             "novedad",
-            "pijama"
-
+            "pijama",
+            "azul",
+            "gris"
          ],
          "data-propios":[
             {
@@ -1171,7 +1176,7 @@
                "anydecompra":"2018",
                "talla":"s",
                "material":" 80% Algodón - 20% Poliester..",
-               "color":"azul y gris",
+               "color":"azul",
                "sexe":"-"
             }
          ]
@@ -1251,8 +1256,8 @@
             "marcas",
             "mujer",
             "novedad",
-            "chaqueta"
-
+            "chaqueta",
+            "negro"
          ],
          "data-propios":[
             {
@@ -1261,7 +1266,7 @@
                "anydecompra":"2019",
                "talla":"L",
                "material":" 100% poliamida",
-               "color":"Negro",
+               "color":"negro",
                "sexe":"mujer"
             }
          ]
@@ -1341,8 +1346,8 @@
             "marcas",
             "mujer",
             "novedad",
-            "chaqueta"
-
+            "chaqueta",
+            "azul"
          ],
          "data-propios":[
             {
@@ -1351,7 +1356,7 @@
                "anydecompra":"2020",
                "talla":"M",
                "material":" 100% poliamida",
-               "color":"Azul",
+               "color":"azul",
                "sexe":"mujer"
             }
          ]
