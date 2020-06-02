@@ -33,7 +33,6 @@ function pintar_elemento_lista_filtros(id_lista_filtros, id_categoria, id_filtro
                 ' onclick="filtrar(\'' + id_categoria + '\', this)">'+
             '<label for="' + id_filtro + '">' + visible_name_filtro + '<span>(' + cantidad_registros + ')</span></label>' +
         '</li>';
-        console.log(""+elemento);
     document.getElementById(id_lista_filtros).innerHTML += elemento;
 }
 
@@ -115,30 +114,47 @@ function anyade_parametros_url(url, param, value){
     var marca = urlParams.getAll('marca');
     var color = urlParams.getAll('color');
     var material = urlParams.getAll('material');
+    var prodxpag = urlParams.getAll('prodxpag');
+    var pagina = urlParams.getAll('pagina');
 
     if(param == "categoria"){
+        prodxpag = [];
         categoria = [];
         categoria.push(value);
     }
 
     if(param == "tipo"){
+        prodxpag = [];
         tipo = [];
         tipo.push(value);
     }
 
     if(param == "marca"){
+        prodxpag = [];
         marca = [];
         marca.push(value);
     }
 
     if(param == "color"){
+        prodxpag = [];
         color = [];
         color.push(value);
     }
 
     if(param == "material"){
+        prodxpag = [];
         material = [];
         material.push(value);
+    }
+
+    if(param == "prodxpag"){
+        prodxpag = [];
+        prodxpag.push(value);
+    }
+
+    if(param == "pagina"){
+        pagina = [];
+        pagina.push(value);
     }
 
     //console.log("categoria ");
@@ -167,6 +183,12 @@ function anyade_parametros_url(url, param, value){
     }
     if(material.length > 0){
         url = anyade_parametro_individual(url, 'material', material[0]);
+    }
+    if(prodxpag.length > 0){
+        url = anyade_parametro_individual(url, 'prodxpag', prodxpag[0]);
+    }
+    if(pagina.length > 0){
+        url = anyade_parametro_individual(url, 'pagina', pagina[0]);
     }
 
     return url;
@@ -237,6 +259,30 @@ function filtrar(param, element){
     }
 }
 
+function filtrar_prodxpag(element){
+    var selectedValue = element.options[element.selectedIndex].value;
+    var urlParams = new URLSearchParams(window.location.search);
+    var nuevaURL = 'products.html';
+    // Activamos
+    nuevaURL = anyade_parametros_url(nuevaURL, 'prodxpag', selectedValue);
+    window.location.href = nuevaURL;
+}
+
+function filtrar_pagina(page_num){
+    var selectedValue = page_num;
+    var urlParams = new URLSearchParams(window.location.search);
+    var nuevaURL = 'products.html';
+    // Activamos
+    nuevaURL = anyade_parametros_url(nuevaURL, 'pagina', selectedValue);
+    window.location.href = nuevaURL;
+}
+
+function get_elemento_si_categoria(elemento, categoria_elemento, categoria){
+    if(categoria_elemento == categoria){
+        return elemento;
+    }
+}
+
 function get_elemento_si_tipo(elemento, tipo){
     if(elemento[tipo]){
         return elemento;
@@ -250,14 +296,20 @@ function get_elemento_si_marca(elemento, marca){
 }
 
 function get_elemento_si_color(elemento, color){
-    if(elemento['tags-propios'].indexOf(color) != -1){
-        return elemento;
+    var to_lower_case = elemento['data-propios'][0]['color'];
+    if(to_lower_case != null){
+        if(to_lower_case.toLowerCase() == color.toLowerCase()){
+            return elemento;
+        }
     }
 }
 
 function get_elemento_si_material(elemento, material){
-    if(elemento['data-propios'][0]['material'] == material){
-        return elemento;
+    var to_lower_case = elemento['data-propios'][0]['material'];
+    if(to_lower_case != null){
+        if(to_lower_case.toLowerCase() == material.toLowerCase()){
+            return elemento;
+        }
     }
 }
 
