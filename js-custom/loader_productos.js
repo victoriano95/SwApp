@@ -51,9 +51,12 @@ if(pagina.length > 0){
     pagina = 1;
 }
 
-var PRODUCTOS_PAGINA = 15;
+var PRODUCTOS_PAGINA = 18;
 if(prodxpag.length > 0){
     PRODUCTOS_PAGINA = prodxpag[0];
+    if(PRODUCTOS_PAGINA == "all"){
+        PRODUCTOS_PAGINA = 9999;
+    }
 }
 
 var contador_productos = 0;
@@ -66,7 +69,7 @@ for(var i = 0; i<URLs.length ; i++){
             var jsonfile = JSON.parse(this.responseText);
             for(item in jsonfile[categories[i]]){
 
-                if((contador_productos_anyadidos < PRODUCTOS_PAGINA) && (contador_productos < (pagina*PRODUCTOS_PAGINA))){
+                //if((contador_productos_anyadidos < PRODUCTOS_PAGINA) && (contador_productos < (pagina*PRODUCTOS_PAGINA))){
 
                     var elemento_filtrado = jsonfile[categories[i]][item];
                     if(elemento_filtrado != null && tipos_filtro.length > 0){
@@ -83,16 +86,18 @@ for(var i = 0; i<URLs.length ; i++){
                     }
                     if(elemento_filtrado != null){
                         contador_productos++;
-                        if((contador_productos <= (pagina*PRODUCTOS_PAGINA)) && (contador_productos > ((pagina-1)*PRODUCTOS_PAGINA))){
+                        if(((contador_productos <= ((pagina)*PRODUCTOS_PAGINA))) && (contador_productos > ((pagina-1)*PRODUCTOS_PAGINA)) && (contador_productos_anyadidos < PRODUCTOS_PAGINA)){
                             contador_productos_anyadidos++;
                             pintarProducto(elemento_filtrado, categories[i]);
                         }
                     }
 
-                }
+                //}
             }
         }
     }
     request.open('GET', requestURL, false);
     request.send();
 }
+
+pintaPaginacion(contador_productos/PRODUCTOS_PAGINA, pagina);

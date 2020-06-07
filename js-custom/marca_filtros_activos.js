@@ -41,8 +41,19 @@ if(pagina.length > 0){
 	if(element != null){
 		element.classList.add("active");
 	}
+	var element_abajo = document.getElementById('page_'+pagina[0]+'_abajo');
+	if(element_abajo != null){
+		element_abajo.classList.add("active");
+	}
 }else{
-	document.getElementById('page_1').classList.add("active");
+	var element = document.getElementById('page_1');
+	if(element != null){
+		element.classList.add("active");
+	}
+	var element_abajo = document.getElementById('page_1_abajo');
+	if(element_abajo != null){
+		element_abajo.classList.add("active");
+	}
 }
 
 if(prodxpag.length > 0){
@@ -51,5 +62,5 @@ if(prodxpag.length > 0){
 		element.value = prodxpag[0];
 	}
 }else{
-	document.getElementById('prodxpag_sel').value = 15;
+	document.getElementById('prodxpag_sel').value = 18;
 }

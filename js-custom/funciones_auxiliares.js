@@ -36,6 +36,37 @@ function pintar_elemento_lista_filtros(id_lista_filtros, id_categoria, id_filtro
     document.getElementById(id_lista_filtros).innerHTML += elemento;
 }
 
+function pintaPaginacion(npaginas, pagina_actual){
+
+    var elemento = "";
+
+    for(i = 1; i <= (npaginas+1); i++){
+        if(npaginas > 1){
+            if(i != pagina_actual){
+                elemento += ("<a href=\"javascript:filtrar_pagina(" + i + ");\" id=\"page_" + i + "\">" + i + "</a>");
+            }else{
+                elemento += ("<a href=\"javascript:filtrar_pagina(" + i + ");\" id=\"page_" + i + "\" class=\"active\">" + i + "</a>");
+            }
+        }
+    }
+
+    document.getElementById("filtro_paginacion").innerHTML += elemento;
+
+
+    var elemento_abajo = "";
+
+    for(i = 1; i <= (npaginas+1); i++){
+        if(npaginas > 1){
+            if(i != pagina_actual){
+                elemento_abajo += ("<a href=\"javascript:filtrar_pagina(" + i + ");\" id=\"page_" + i + "_abajo\">" + i + "</a>");
+            }else{
+                elemento_abajo += ("<a href=\"javascript:filtrar_pagina(" + i + ");\" id=\"page_" + i + "_abajo\" class=\"active\">" + i + "</a>");
+            }
+        }
+    }
+    document.getElementById("filtro_paginacion_abajo").innerHTML += elemento_abajo;
+}
+
 function pintarProductoexclusive(item, categoria){
     var producte = '<div class="single-exclusive-slider">'+
                         '<img class="img-fluid" src="' + item['images'][0] + '" alt="">'+
@@ -121,35 +152,41 @@ function anyade_parametros_url(url, param, value){
         prodxpag = [];
         categoria = [];
         categoria.push(value);
+        pagina = [];
     }
 
     if(param == "tipo"){
         prodxpag = [];
         tipo = [];
         tipo.push(value);
+        pagina = [];
     }
 
     if(param == "marca"){
         prodxpag = [];
         marca = [];
         marca.push(value);
+        pagina = [];
     }
 
     if(param == "color"){
         prodxpag = [];
         color = [];
         color.push(value);
+        pagina = [];
     }
 
     if(param == "material"){
         prodxpag = [];
         material = [];
         material.push(value);
+        pagina = [];
     }
 
     if(param == "prodxpag"){
         prodxpag = [];
         prodxpag.push(value);
+        pagina = [];
     }
 
     if(param == "pagina"){
@@ -203,6 +240,8 @@ function quita_parametros_url(url, param){
     var marca = urlParams.getAll('marca');
     var color = urlParams.getAll('color');
     var material = urlParams.getAll('material');
+    var pagina = urlParams.getAll('pagina');
+    var prodxpag = urlParams.getAll('prodxpag');
 
     if(param == "categoria"){
         categoria = [];
@@ -224,6 +263,14 @@ function quita_parametros_url(url, param){
         material = [];
     }
 
+    if(param == "pagina"){
+        pagina = [];
+    }
+
+    if(param == "prodxpag"){
+        prodxpag = [];
+    }
+
     if(categoria.length > 0){
         url = anyade_parametro_individual(url, 'categoria', categoria[0]);
     }
@@ -238,6 +285,12 @@ function quita_parametros_url(url, param){
     }
     if(material.length > 0){
         url = anyade_parametro_individual(url, 'material', material[0]);
+    }
+    if(pagina.length > 0){
+        url = anyade_parametro_individual(url, 'pagina', pagina[0]);
+    }
+    if(prodxpag.length > 0){
+        url = anyade_parametro_individual(url, 'prodxpag', prodxpag[0]);
     }
 
     return url;
